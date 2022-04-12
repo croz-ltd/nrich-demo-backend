@@ -10,6 +10,8 @@ import net.croz.nrichdemobackend.registry.model.AuthorBookId;
 import net.croz.nrichdemobackend.registry.model.Book;
 import net.croz.nrichdemobackend.registry.model.BookType;
 import net.croz.nrichdemobackend.registry.model.Country;
+import net.croz.nrichdemobackend.seach.model.Car;
+import net.croz.nrichdemobackend.seach.model.CarType;
 import org.springframework.stereotype.Service;
 
 import javax.persistence.EntityManager;
@@ -32,6 +34,7 @@ public class DefaultBootstrapService implements BootstrapService {
     public void createBootstrapData() {
         createExcelBootstrapData();
         createRegistryBootstrapData();
+        createSearchBootstrapData();
     }
 
     private void createExcelBootstrapData() {
@@ -158,6 +161,45 @@ public class DefaultBootstrapService implements BootstrapService {
         address.setStreetNumber(count + 1);
 
         return address;
+    }
+
+    private void createSearchBootstrapData() {
+        List<CarType> carTypeList = IntStream.range(0, BootstrapConstants.SEARCH_SMALL_BOOSTRAP_DATA_SIZE)
+            .mapToObj(this::createCarType)
+            .collect(Collectors.toList());
+
+        carTypeList.forEach(entityManager::persist);
+
+        List.of(
+            createCar("AB-123", instantOf("2015-01-01"), BigDecimal.valueOf(10000), 0, carTypeList.get(0)),
+            createCar("BC-456", instantOf("2016-01-01"), BigDecimal.valueOf(9000), 10000, carTypeList.get(1)),
+            createCar("BC-457", instantOf("2016-01-02"), BigDecimal.valueOf(9400), 500, carTypeList.get(1)),
+            createCar("AB-124", instantOf("2015-11-10"), BigDecimal.valueOf(17000), 500, carTypeList.get(0)),
+            createCar("AB-124", instantOf("2015-11-10"), BigDecimal.valueOf(10000), 10, carTypeList.get(2)),
+            createCar("DD-153", instantOf("2015-01-01"), BigDecimal.valueOf(15000), 20000, carTypeList.get(2)),
+            createCar("DD-154", instantOf("2017-02-02"), BigDecimal.valueOf(10000.00), 3000, carTypeList.get(3))
+        ).forEach(entityManager::persist);
+    }
+
+    private Car createCar(String registrationNumber, Instant manufacturedDate, BigDecimal price, Integer numberOfKilometers, CarType carType) {
+        Car car = new Car();
+
+        car.setRegistrationNumber(registrationNumber);
+        car.setManufacturedTime(manufacturedDate);
+        car.setPrice(price);
+        car.setNumberOfKilometers(numberOfKilometers);
+        car.setCarType(carType);
+
+        return car;
+    }
+
+    private CarType createCarType(int count) {
+        CarType carType = new CarType();
+
+        carType.setMake(String.format(BootstrapConstants.CAR_MAKE_FORMAT, count));
+        carType.setModel(String.format(BootstrapConstants.CAR_MODEL_FORMAT, count));
+
+        return carType;
     }
 
     private static Instant instantOf(String formattedInstant) {
