@@ -1,3 +1,10 @@
+spring:
+  jpa:
+    open-in-view: false
+    properties:
+      hibernate:
+        jdbc.time_zone: UTC
+
 nrich:
   encrypt:
     encryption-configuration-list:
@@ -5,3 +12,6 @@ nrich:
         encryption-operation: ENCRYPT
       - method-to-encrypt-decrypt: net.croz.nrichdemobackend.encrypt.controller.EncryptDemoController.decryptArgumentInProperties
         encryption-operation: DECRYPT
+
+logging.level:
+  org.hibernate.SQL: debug
