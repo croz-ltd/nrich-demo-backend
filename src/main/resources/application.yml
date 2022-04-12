@@ -1,0 +1,7 @@
+nrich:
+  encrypt:
+    encryption-configuration-list:
+      - method-to-encrypt-decrypt: net.croz.nrichdemobackend.encrypt.controller.EncryptDemoController.encryptResultDefinedInProperties
+        encryption-operation: ENCRYPT
+      - method-to-encrypt-decrypt: net.croz.nrichdemobackend.encrypt.controller.EncryptDemoController.decryptArgumentInProperties
+        encryption-operation: DECRYPT
