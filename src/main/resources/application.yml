@@ -13,5 +13,9 @@ nrich:
       - method-to-encrypt-decrypt: net.croz.nrichdemobackend.encrypt.controller.EncryptDemoController.decryptArgumentInProperties
         encryption-operation: DECRYPT
 
+  form-configuration:
+    form-configuration-mapping:
+      form-configuration.demo-request: net.croz.nrichdemobackend.formconfiguration.request.FormConfigurationDemoRequest
+
 logging.level:
   org.hibernate.SQL: debug
