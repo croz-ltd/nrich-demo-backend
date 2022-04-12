@@ -29,9 +29,9 @@ public final class BootstrapConstants {
 
     public static final String TITLE_FORMAT = "Title: %s";
 
-    public static final String FIRST_NAME_FORMAT = "First %s";
+    public static final String FIRST_NAME_FORMAT = "First_%s";
 
-    public static final String LAST_NAME_FORMAT = "Last %s";
+    public static final String LAST_NAME_FORMAT = "Last_%s";
 
     public static final String EDITION_FORMAT = "Edition: %s";
 
