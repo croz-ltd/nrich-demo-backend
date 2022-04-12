@@ -6,6 +6,10 @@ spring:
         jdbc.time_zone: UTC
 
 nrich:
+  constraint.file:
+    allowed-content-type-list: application/msword
+    allowed-extension-list: doc
+
   encrypt:
     encryption-configuration-list:
       - method-to-encrypt-decrypt: net.croz.nrichdemobackend.encrypt.controller.EncryptDemoController.encryptResultDefinedInProperties
