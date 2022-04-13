@@ -23,7 +23,6 @@ repositories {
 dependencies {
   implementation platform("net.croz.nrich:nrich-bom:$nrichVersion")
 
-  implementation "org.springframework.boot:spring-boot-starter-web"
   // TODO remove following three dependencies when PR for dependencies is merged
   implementation "org.springframework.boot:spring-boot-starter-data-jpa"
   implementation "org.springframework.boot:spring-boot-starter-validation"
@@ -40,7 +39,10 @@ dependencies {
   implementation "net.croz.nrich:nrich-validation-spring-boot-starter"
   implementation "net.croz.nrich:nrich-webmvc-spring-boot-starter"
 
+  implementation "org.ehcache:ehcache"
   implementation "org.hibernate:hibernate-envers"
+  implementation "org.springframework.boot:spring-boot-starter-cache"
+  implementation "org.springframework.boot:spring-boot-starter-web"
 
   compileOnly "org.projectlombok:lombok"
   annotationProcessor "org.projectlombok:lombok"
