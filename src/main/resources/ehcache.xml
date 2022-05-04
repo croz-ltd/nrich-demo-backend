@@ -1,0 +1,19 @@
+<ehcache:config xmlns:ehcache="http://www.ehcache.org/v3" xmlns:jcache="http://www.ehcache.org/v3/jsr107">
+    <ehcache:service>
+        <jcache:defaults>
+            <jcache:cache name="defaultCacheTemplate" template="jcacheDefaults" />
+        </jcache:defaults>
+    </ehcache:service>
+
+    <ehcache:cache-template name="jcacheDefaults">
+        <ehcache:expiry>
+            <ehcache:ttl unit="hours">8</ehcache:ttl>
+        </ehcache:expiry>
+        <ehcache:heap>100</ehcache:heap>
+        <jcache:mbeans enable-management="true" enable-statistics="true" />
+    </ehcache:cache-template>
+
+    <ehcache:cache alias="nrich.formConfiguration.cache" uses-template="jcacheDefaults" />
+    <ehcache:cache alias="nrich.registryConfiguration.cache" uses-template="jcacheDefaults" />
+    <ehcache:cache alias="nrich.transientPropertyResolver.cache" uses-template="jcacheDefaults" />
+</ehcache:config>

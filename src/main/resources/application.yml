@@ -1,0 +1,45 @@
+spring:
+  cache:
+    jcache:
+      config: classpath:ehcache.xml
+  jpa:
+    open-in-view: false
+    properties:
+      hibernate:
+        jdbc.time_zone: UTC
+
+nrich:
+  constraint.file:
+    allowed-content-type-list: application/msword
+    allowed-extension-list: doc
+
+  encrypt:
+    encryption-configuration-list:
+      - method-to-encrypt-decrypt: net.croz.nrichdemobackend.encrypt.controller.EncryptDemoController.encryptResultDefinedInProperties
+        encryption-operation: ENCRYPT
+      - method-to-encrypt-decrypt: net.croz.nrichdemobackend.encrypt.controller.EncryptDemoController.decryptArgumentInProperties
+        encryption-operation: DECRYPT
+
+  form-configuration:
+    form-configuration-mapping:
+      form-configuration.demo-request: net.croz.nrichdemobackend.formconfiguration.request.FormConfigurationDemoRequest
+
+  registry:
+    registry-configuration:
+      registry-search:
+        date-format-list: yyyy-MM-dd, yyyy-MM-dd'T'HH:mm, yyyy-MM-dd'T'HH:mm:ss'Z'
+        decimal-number-format-list: #0.00, #0,00
+      group-definition-configuration-list:
+        - group-id: Address
+          include-entity-pattern-list: net.croz.nrichdemobackend.registry.model.Address, net.croz.nrichdemobackend.registry.model.Country
+        - group-id: Book
+          include-entity-pattern-list: >
+            net.croz.nrichdemobackend.registry.model.Author, net.croz.nrichdemobackend.registry.model.Book, net.croz.nrichdemobackend.registry.model.AuthorBook,
+            net.croz.nrichdemobackend.registry.model.BookType
+
+  search:
+    string-search:
+      date-format-list: yyyy-MM-dd, yyyy-MM-dd'T'HH:mm, yyyy-MM-dd'T'HH:mm:ss'Z'
+
+logging.level:
+  org.hibernate.SQL: debug

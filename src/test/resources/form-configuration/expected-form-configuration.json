@@ -1,0 +1,199 @@
+[
+    {
+        "formId": "form-configuration.demo-request",
+        "constrainedPropertyConfigurationList": [
+            {
+                "path": "email",
+                "validatorList": [
+                    {
+                        "propertyType": "java.lang.String",
+                        "name": "Email",
+                        "argumentMap": {
+                            "regexp": ".*",
+                            "flags": []
+                        },
+                        "errorMessage": "Email is not in the correct format"
+                    },
+                    {
+                        "propertyType": "java.lang.String",
+                        "name": "NotBlank",
+                        "argumentMap": {},
+                        "errorMessage": "Email cannot be empty"
+                    }
+                ]
+            },
+            {
+                "path": "startDate",
+                "validatorList": [
+                    {
+                        "propertyType": "java.time.Instant",
+                        "name": "NotNull",
+                        "argumentMap": {},
+                        "errorMessage": "Cannot be null"
+                    }
+                ]
+            },
+            {
+                "path": "income",
+                "validatorList": [
+                    {
+                        "propertyType": "java.math.BigDecimal",
+                        "name": "Digits",
+                        "argumentMap": {
+                            "integer": 10,
+                            "fraction": 2
+                        },
+                        "errorMessage": "Maximum number of digits is: 10 and scale is: 2"
+                    },
+                    {
+                        "propertyType": "java.math.BigDecimal",
+                        "name": "DecimalMin",
+                        "argumentMap": {
+                            "inclusive": true,
+                            "value": "0.0"
+                        },
+                        "errorMessage": "Income must be greater than zero"
+                    }
+                ]
+            },
+            {
+                "path": "hours",
+                "validatorList": [
+                    {
+                        "propertyType": "java.lang.Integer",
+                        "name": "Min",
+                        "argumentMap": {
+                            "value": 0
+                        },
+                        "errorMessage": "Minimum value is: 0"
+                    },
+                    {
+                        "propertyType": "java.lang.Integer",
+                        "name": "Max",
+                        "argumentMap": {
+                            "value": 23
+                        },
+                        "errorMessage": "Maximum value is: 23"
+                    }
+                ]
+            },
+            {
+                "path": "phone",
+                "validatorList": [
+                    {
+                        "propertyType": "java.lang.String",
+                        "name": "Size",
+                        "argumentMap": {
+                            "min": 5,
+                            "max": 9
+                        },
+                        "errorMessage": "Size must be between: 9 and 5"
+                    }
+                ]
+            },
+            {
+                "path": "nestedFormConfigurationDemoRequest",
+                "validatorList": [
+                    {
+                        "propertyType": "net.croz.nrichdemobackend.formconfiguration.request.NestedFormConfigurationDemoRequest",
+                        "name": "NotNull",
+                        "argumentMap": {},
+                        "errorMessage": "Cannot be null"
+                    }
+                ]
+            },
+            {
+                "path": "nestedFormConfigurationDemoRequest.city",
+                "validatorList": [
+                    {
+                        "propertyType": "java.lang.String",
+                        "name": "Size",
+                        "argumentMap": {
+                            "min": 2,
+                            "max": 150
+                        },
+                        "errorMessage": "City is not correctly defined"
+                    }
+                ]
+            },
+            {
+                "path": "nestedFormConfigurationDemoRequest.street",
+                "validatorList": [
+                    {
+                        "propertyType": "java.lang.String",
+                        "name": "NotNull",
+                        "argumentMap": {},
+                        "errorMessage": "Cannot be null"
+                    }
+                ]
+            },
+            {
+                "path": "nestedFormConfigurationDemoRequest.country",
+                "validatorList": [
+                    {
+                        "propertyType": "java.lang.String",
+                        "name": "Size",
+                        "argumentMap": {
+                            "min": 2,
+                            "max": 100
+                        },
+                        "errorMessage": "Country is not correctly defined"
+                    }
+                ]
+            },
+            {
+                "path": "firstName",
+                "validatorList": [
+                    {
+                        "propertyType": "java.lang.String",
+                        "name": "NotBlank",
+                        "argumentMap": {},
+                        "errorMessage": "Cannot be blank"
+                    }
+                ]
+            },
+            {
+                "path": "title",
+                "validatorList": [
+                    {
+                        "propertyType": "java.lang.String",
+                        "name": "InList",
+                        "argumentMap": {
+                            "value": [
+                                "mr",
+                                "mrs",
+                                "miss"
+                            ]
+                        },
+                        "errorMessage": "Not in list: mr, mrs, miss"
+                    }
+                ]
+            },
+            {
+                "path": "phonePrefix",
+                "validatorList": [
+                    {
+                        "propertyType": "java.lang.String",
+                        "name": "Size",
+                        "argumentMap": {
+                            "min": 3,
+                            "max": 3
+                        },
+                        "errorMessage": "Size must be between: 3 and 3"
+                    }
+                ]
+            },
+            {
+                "path": "endDate",
+                "validatorList": [
+                    {
+                        "propertyType": "java.time.Instant",
+                        "name": "NotNull",
+                        "argumentMap": {},
+                        "errorMessage": "Cannot be null"
+                    }
+                ]
+            }
+        ]
+    }
+]

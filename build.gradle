@@ -1,0 +1,56 @@
+plugins {
+  id "org.springframework.boot" version "$springBootVersion"
+  id "io.spring.dependency-management" version "$springDependencyManagementVersion"
+  id "java"
+  id "jacoco"
+}
+
+group = "net.croz"
+version = "0.0.1-SNAPSHOT"
+sourceCompatibility = "11"
+
+configurations {
+  compileOnly {
+    extendsFrom annotationProcessor
+  }
+}
+
+repositories {
+  mavenLocal()
+  mavenCentral()
+}
+
+dependencies {
+  implementation platform("net.croz.nrich:nrich-bom:$nrichVersion")
+
+  implementation "net.croz.nrich:nrich-core-api"
+  implementation "net.croz.nrich:nrich-encrypt-spring-boot-starter"
+  implementation "net.croz.nrich:nrich-excel-spring-boot-starter"
+  implementation "net.croz.nrich:nrich-form-configuration-spring-boot-starter"
+  implementation "net.croz.nrich:nrich-jackson-spring-boot-starter"
+  implementation "net.croz.nrich:nrich-logging"
+  implementation "net.croz.nrich:nrich-notification-spring-boot-starter"
+  implementation "net.croz.nrich:nrich-registry-spring-boot-starter"
+  implementation "net.croz.nrich:nrich-search-spring-boot-starter"
+  implementation "net.croz.nrich:nrich-validation-spring-boot-starter"
+  implementation "net.croz.nrich:nrich-webmvc-spring-boot-starter"
+
+  implementation "org.ehcache:ehcache"
+  implementation "org.hibernate:hibernate-envers"
+  implementation "org.springframework.boot:spring-boot-starter-cache"
+  implementation "org.springframework.boot:spring-boot-starter-web"
+
+  compileOnly "org.projectlombok:lombok"
+  annotationProcessor "org.projectlombok:lombok"
+
+  runtimeOnly "com.h2database:h2"
+
+  testAnnotationProcessor "org.projectlombok:lombok"
+  testCompileOnly "org.projectlombok:lombok"
+
+  testImplementation "org.springframework.boot:spring-boot-starter-test"
+}
+
+tasks.named("test") {
+  useJUnitPlatform()
+}
