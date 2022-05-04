@@ -22,6 +22,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.test.web.servlet.ResultActions;
 
 import static net.croz.nrichdemobackend.core.testutil.FileResolverUtil.readFileContent;
+import static net.croz.nrichdemobackend.excel.testutil.ExcelComparisonUtil.compareExcelFiles;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -38,7 +39,7 @@ class ExcelDemoControllerTest extends BaseControllerTest {
 
         // then
         result.andExpect(status().isOk())
-            .andExpect(content().bytes(expectedReport));
+            .andExpect(mvcResult -> compareExcelFiles(mvcResult.getResponse().getContentAsByteArray(), expectedReport));
     }
 
     @Test
@@ -52,7 +53,7 @@ class ExcelDemoControllerTest extends BaseControllerTest {
 
         // then
         result.andExpect(status().isOk())
-            .andExpect(content().bytes(expectedReport));
+            .andExpect(mvcResult -> compareExcelFiles(mvcResult.getResponse().getContentAsByteArray(), expectedReport));
     }
 
     private String fullUrl(String path) {
