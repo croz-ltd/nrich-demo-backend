@@ -1,8 +1,24 @@
 plugins {
+  id "fr.brouillard.oss.gradle.jgitver" version "$gradleJgitverPluginVersion"
   id "org.springframework.boot" version "$springBootVersion"
   id "io.spring.dependency-management" version "$springDependencyManagementVersion"
   id "java"
   id "jacoco"
+}
+
+jacocoTestReport {
+  dependsOn test
+  reports {
+    xml.required = true
+  }
+}
+
+jgitver {
+  mavenLike true
+  policy {
+    pattern = "(.*)"
+    transformations = ["IGNORE"]
+  }
 }
 
 group = "net.croz"
@@ -48,6 +64,8 @@ dependencies {
   testAnnotationProcessor "org.projectlombok:lombok"
   testCompileOnly "org.projectlombok:lombok"
 
+  testImplementation "org.apache.poi:poi"
+  testImplementation "org.apache.poi:poi-ooxml"
   testImplementation "org.springframework.boot:spring-boot-starter-test"
 }
 
