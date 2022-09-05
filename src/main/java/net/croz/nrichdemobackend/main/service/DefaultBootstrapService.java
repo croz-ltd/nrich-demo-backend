@@ -17,7 +17,6 @@
 
 package net.croz.nrichdemobackend.main.service;
 
-import lombok.RequiredArgsConstructor;
 import net.croz.nrichdemobackend.excel.model.ExcelDemoEntity;
 import net.croz.nrichdemobackend.main.constants.BootstrapConstants;
 import net.croz.nrichdemobackend.registry.model.Address;
@@ -32,6 +31,7 @@ import net.croz.nrichdemobackend.seach.model.CarType;
 import org.springframework.stereotype.Service;
 
 import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 import java.math.BigDecimal;
 import java.time.Instant;
@@ -40,11 +40,11 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-@RequiredArgsConstructor
 @Service
 public class DefaultBootstrapService implements BootstrapService {
 
-    private final EntityManager entityManager;
+    @PersistenceContext
+    private EntityManager entityManager;
 
     @Transactional
     @Override
