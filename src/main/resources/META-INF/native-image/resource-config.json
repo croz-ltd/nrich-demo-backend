@@ -1,0 +1,197 @@
+{
+    "resources": {
+        "includes": [
+            {
+                "pattern": "\\QMETA-INF/services/javax.validation.spi.ValidationProvider\\E"
+            },
+            {
+                "pattern": "\\QMETA-INF/services/javax.xml.bind.JAXBContext\\E"
+            },
+            {
+                "pattern": "\\QMETA-INF/services/org.hibernate.boot.spi.AdditionalJaxbMappingProducer\\E"
+            },
+            {
+                "pattern": "\\QMETA-INF/services/org.hibernate.integrator.spi.Integrator\\E"
+            },
+            {
+                "pattern": "\\QMETA-INF/services/org.hibernate.service.spi.ServiceContributor\\E"
+            },
+            {
+                "pattern": "\\QMETA-INF/validation-configuration-1.1.xsd\\E"
+            },
+            {
+                "pattern": "\\QMETA-INF/validation.xml\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctborderf935type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctborders0d66type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctcell842btype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctcellstylexfsa81ftype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctcellxfs1322type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctcola95ftype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctcolors6579type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctcols627ctype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctdxfsb26atype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctfill550ctype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctfills2c6ftype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctfont14d8type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctfontname2dc3type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctfonts6623type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctfontsizeb3b9type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctindexedcolorsa0a0type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctnumfmt3870type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctnumfmtsb58btype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctproperties2c18type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctproperties3f10type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctrgbcolor95dftype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctrowdd39type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctrsta472type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctsheet4dbetype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctsheetdata8408type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctsheetdimensiond310type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctsheets49fdtype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctsst44f3type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctstylesheet4257type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/cttablestyles872ftype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctworkbook83c3type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctworksheet530dtype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/ctxf97f7type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/index.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/properties288cdoctype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/propertiesee84doctype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/sstf81fdoctype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/stborderid1a80type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/stcellrefe4e0type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/stcellstylexfid70c7type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/stcelltypebf95type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/stfillida097type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/stfontid9d63type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/stnumfmtid76fbtype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/stref90a2type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/strelationshipid1e94type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/stunsignedinthex27datype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/stxstringf179type.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/stylesheet5d8bdoctype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/themefd26doctype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/workbookec17doctype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/poi/schemas/ooxml/system/ooxml/worksheetf539doctype.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/xmlbeans/metadata/system/sXMLCONFIG/index.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/xmlbeans/metadata/system/sXMLLANG/index.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/xmlbeans/metadata/system/sXMLSCHEMA/index.xsb\\E"
+            },
+            {
+                "pattern": "\\Qorg/apache/xmlbeans/metadata/system/sXMLTOOLS/index.xsb\\E"
+            }
+        ]
+    },
+    "bundles": [
+    ]
+}

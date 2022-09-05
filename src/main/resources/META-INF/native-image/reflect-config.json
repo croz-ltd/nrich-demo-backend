@@ -1,0 +1,3657 @@
+[
+    {
+        "name": "com.sun.org.apache.xerces.internal.impl.dv.xs.SchemaDVFactoryImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "com.sun.org.apache.xerces.internal.impl.dv.xs.ExtendedSchemaDVFactoryImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "com.sun.xml.bind.v2.ContextFactory",
+        "methods": [
+            {
+                "name": "createContext",
+                "parameterTypes": [
+                    "java.lang.Class[]",
+                    "java.util.Map"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.sun.xml.bind.v2.model.nav.ReflectionNavigator",
+        "methods": [
+            {
+                "name": "getInstance",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "java.util.ServiceLoader",
+        "methods": [
+            {
+                "name": "stream",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "java.util.ServiceLoader$Provider",
+        "methods": [
+            {
+                "name": "type",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "javax.xml.bind.Binder"
+    },
+    {
+        "name": "javax.xml.bind.annotation.XmlAccessorType",
+        "methods": [
+            {
+                "name": "value",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "javax.xml.bind.annotation.XmlElement",
+        "methods": [
+            {
+                "name": "type",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "javax.xml.bind.annotation.XmlElementDecl",
+        "methods": [
+            {
+                "name": "scope",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "javax.xml.bind.annotation.XmlElementRef",
+        "methods": [
+            {
+                "name": "type",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "javax.xml.bind.annotation.XmlElements",
+        "methods": [
+            {
+                "name": "value",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "javax.xml.bind.annotation.XmlEnum",
+        "methods": [
+            {
+                "name": "value",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "javax.xml.bind.annotation.XmlEnumValue",
+        "methods": [
+            {
+                "name": "value",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "javax.xml.bind.annotation.XmlMixed"
+    },
+    {
+        "name": "com.sun.xml.bind.v2.runtime.property.ArrayElementLeafProperty",
+        "queryAllPublicConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "com.sun.xml.bind.v2.runtime.JAXBContextImpl",
+                    "com.sun.xml.bind.v2.model.runtime.RuntimeElementPropertyInfo"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.sun.xml.bind.v2.runtime.property.ArrayElementNodeProperty",
+        "queryAllPublicConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "com.sun.xml.bind.v2.runtime.JAXBContextImpl",
+                    "com.sun.xml.bind.v2.model.runtime.RuntimeElementPropertyInfo"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.sun.xml.bind.v2.runtime.property.ArrayReferenceNodeProperty",
+        "queryAllPublicConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "com.sun.xml.bind.v2.runtime.JAXBContextImpl",
+                    "com.sun.xml.bind.v2.model.runtime.RuntimeReferencePropertyInfo"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.sun.xml.bind.v2.runtime.property.SingleElementLeafProperty",
+        "queryAllPublicConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "com.sun.xml.bind.v2.runtime.JAXBContextImpl",
+                    "com.sun.xml.bind.v2.model.runtime.RuntimeElementPropertyInfo"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.sun.xml.bind.v2.runtime.property.SingleElementNodeProperty",
+        "queryAllPublicConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "com.sun.xml.bind.v2.runtime.JAXBContextImpl",
+                    "com.sun.xml.bind.v2.model.runtime.RuntimeElementPropertyInfo"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.sun.xml.bind.v2.runtime.property.SingleMapNodeProperty",
+        "queryAllPublicConstructors": true
+    },
+    {
+        "name": "com.sun.xml.bind.v2.runtime.property.SingleReferenceNodeProperty",
+        "queryAllPublicConstructors": true
+    },
+    {
+        "name": "com.sun.xml.internal.stream.XMLInputFactoryImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "com.sun.xml.internal.stream.events.XMLEventFactoryImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "javax.xml.bind.annotation.XmlType",
+        "methods": [
+            {
+                "name": "factoryClass",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter",
+        "methods": [
+            {
+                "name": "type",
+                "parameterTypes": []
+            },
+            {
+                "name": "value",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.formconfiguration.api.model.ConstrainedProperty"
+    },
+    {
+        "name": "net.croz.nrich.formconfiguration.api.model.ConstrainedPropertyClientValidatorConfiguration",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "getArgumentMap",
+                "parameterTypes": []
+            },
+            {
+                "name": "getErrorMessage",
+                "parameterTypes": []
+            },
+            {
+                "name": "getName",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.formconfiguration.api.model.ConstrainedPropertyConfiguration",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "getJavascriptType",
+                "parameterTypes": []
+            },
+            {
+                "name": "getPath",
+                "parameterTypes": []
+            },
+            {
+                "name": "getPropertyType",
+                "parameterTypes": []
+            },
+            {
+                "name": "getValidatorList",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.formconfiguration.api.model.FormConfiguration",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "getConstrainedPropertyConfigurationList",
+                "parameterTypes": []
+            },
+            {
+                "name": "getFormId",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.formconfiguration.api.request.FetchFormConfigurationRequest",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "setFormIdList",
+                "parameterTypes": [
+                    "java.util.List"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.api.core.model.RegistryConfiguration",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "getGroupDefinitionConfigurationList",
+                "parameterTypes": []
+            },
+            {
+                "name": "setGroupDefinitionConfigurationList",
+                "parameterTypes": [
+                    "java.util.List"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.api.core.model.RegistryGroupDefinitionConfiguration",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "getIncludeEntityPatternList",
+                "parameterTypes": []
+            },
+            {
+                "name": "setGroupId",
+                "parameterTypes": [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "setIncludeEntityPatternList",
+                "parameterTypes": [
+                    "java.util.List"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.api.configuration.model.RegistryGroupConfiguration",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "getGroupId",
+                "parameterTypes": []
+            },
+            {
+                "name": "getGroupIdDisplayName",
+                "parameterTypes": []
+            },
+            {
+                "name": "getEntityConfigurationList",
+                "parameterTypes": [
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.api.configuration.model.RegistryEntityConfiguration",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "getClassFullName",
+                "parameterTypes": []
+            },
+            {
+                "name": "getName",
+                "parameterTypes": []
+            },
+            {
+                "name": "getDisplayName",
+                "parameterTypes": [
+                ]
+            },
+            {
+                "name": "getGroupId",
+                "parameterTypes": [
+                ]
+            },
+            {
+                "name": "isReadOnly",
+                "parameterTypes": [
+                ]
+            },
+            {
+                "name": "isCreatable",
+                "parameterTypes": [
+                ]
+            },
+            {
+                "name": "isUpdateable",
+                "parameterTypes": [
+                ]
+            },
+            {
+                "name": "isDeletable",
+                "parameterTypes": [
+                ]
+            },
+            {
+                "name": "isIdentifierAssigned",
+                "parameterTypes": [
+                ]
+            },
+            {
+                "name": "isIdClassIdentity",
+                "parameterTypes": [
+                ]
+            },
+            {
+                "name": "isEmbeddedIdentity",
+                "parameterTypes": [
+                ]
+            },
+            {
+                "name": "getIdClassPropertyNameList",
+                "parameterTypes": [
+                ]
+            },
+            {
+                "name": "isHistoryAvailable",
+                "parameterTypes": [
+                ]
+            },
+            {
+                "name": "getPropertyConfigurationList",
+                "parameterTypes": [
+                ]
+            },
+            {
+                "name": "getEmbeddedIdPropertyConfigurationList",
+                "parameterTypes": [
+                ]
+            },
+            {
+                "name": "getHistoryPropertyConfigurationList",
+                "parameterTypes": [
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.api.configuration.model.property.RegistryPropertyConfiguration",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "getName",
+                "parameterTypes": []
+            },
+            {
+                "name": "getJavascriptType",
+                "parameterTypes": []
+            },
+            {
+                "name": "getOriginalType",
+                "parameterTypes": []
+            },
+            {
+                "name": "isId",
+                "parameterTypes": []
+            },
+            {
+                "name": "isDecimal",
+                "parameterTypes": []
+            },
+            {
+                "name": "isSingularAssociation",
+                "parameterTypes": []
+            },
+            {
+                "name": "getSingularAssociationReferencedClass",
+                "parameterTypes": []
+            },
+            {
+                "name": "getFormLabel",
+                "parameterTypes": []
+            },
+            {
+                "name": "getColumnHeader",
+                "parameterTypes": []
+            },
+            {
+                "name": "isEditable",
+                "parameterTypes": []
+            },
+            {
+                "name": "isSortable",
+                "parameterTypes": []
+            },
+            {
+                "name": "isSearchable",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.api.data.request.SearchParameter",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "setPropertyNameList",
+                "parameterTypes": [
+                    "java.util.List"
+                ]
+            },
+            {
+                "name": "setQuery",
+                "parameterTypes": [
+                    "java.lang.String"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.api.data.request.ListBulkRegistryRequest",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "setRegistryRequestList",
+                "parameterTypes": [
+                    "java.util.List"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.api.data.request.ListRegistryRequest",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "setClassFullName",
+                "parameterTypes": [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "setPageNumber",
+                "parameterTypes": [
+                    "java.lang.Integer"
+                ]
+            },
+            {
+                "name": "setPageSize",
+                "parameterTypes": [
+                    "java.lang.Integer"
+                ]
+            },
+            {
+                "name": "setSearchParameter",
+                "parameterTypes": [
+                    "net.croz.nrich.registry.api.data.request.SearchParameter"
+                ]
+            },
+            {
+                "name": "setSortPropertyList",
+                "parameterTypes": [
+                    "java.util.List"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.data.request.CreateRegistryRequest",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "setClassFullName",
+                "parameterTypes": [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "setJsonEntityData",
+                "parameterTypes": [
+                    "java.lang.String"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.data.request.DeleteRegistryRequest",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "setClassFullName",
+                "parameterTypes": [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "setId",
+                "parameterTypes": [
+                    "java.lang.Object"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.data.request.UpdateRegistryRequest",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "setClassFullName",
+                "parameterTypes": [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "setId",
+                "parameterTypes": [
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "setJsonEntityData",
+                "parameterTypes": [
+                    "java.lang.String"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.api.history.request.ListRegistryHistoryRequest",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "setClassFullName",
+                "parameterTypes": [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "setPageNumber",
+                "parameterTypes": [
+                    "java.lang.Integer"
+                ]
+            },
+            {
+                "name": "setPageSize",
+                "parameterTypes": [
+                    "java.lang.Integer"
+                ]
+            },
+            {
+                "name": "setRegistryRecordId",
+                "parameterTypes": [
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "setSortPropertyList",
+                "parameterTypes": [
+                    "java.util.List"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.api.history.model.EntityWithRevision",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "getEntity",
+                "parameterTypes": [
+                ]
+            },
+            {
+                "name": "getRevisionInfo",
+                "parameterTypes": [
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.api.history.model.RevisionInfo",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "getRevisionNumber",
+                "parameterTypes": [
+                ]
+            },
+            {
+                "name": "getRevisionTimestamp",
+                "parameterTypes": [
+                ]
+            },
+            {
+                "name": "getRevisionType",
+                "parameterTypes": [
+                ]
+            },
+            {
+                "name": "getAdditionalRevisionPropertyMap",
+                "parameterTypes": [
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.api.data.service.RegistryDataService",
+        "queryAllDeclaredMethods": true,
+        "queryAllPublicMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "create",
+                "parameterTypes": [
+                    "java.lang.String",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "delete",
+                "parameterTypes": [
+                    "java.lang.String",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "list",
+                "parameterTypes": [
+                    "net.croz.nrich.registry.api.data.request.ListRegistryRequest"
+                ]
+            },
+            {
+                "name": "listBulk",
+                "parameterTypes": [
+                    "net.croz.nrich.registry.api.data.request.ListBulkRegistryRequest"
+                ]
+            },
+            {
+                "name": "update",
+                "parameterTypes": [
+                    "java.lang.String",
+                    "java.lang.Object",
+                    "java.lang.Object"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.data.service.DefaultRegistryDataService",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "create",
+                "parameterTypes": [
+                    "java.lang.String",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "delete",
+                "parameterTypes": [
+                    "java.lang.String",
+                    "java.lang.Object"
+                ]
+            },
+            {
+                "name": "list",
+                "parameterTypes": [
+                    "net.croz.nrich.registry.api.data.request.ListRegistryRequest"
+                ]
+            },
+            {
+                "name": "listBulk",
+                "parameterTypes": [
+                    "net.croz.nrich.registry.api.data.request.ListBulkRegistryRequest"
+                ]
+            },
+            {
+                "name": "update",
+                "parameterTypes": [
+                    "java.lang.String",
+                    "java.lang.Object",
+                    "java.lang.Object"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.api.history.service.RegistryHistoryService",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "historyList",
+                "parameterTypes": [
+                    "net.croz.nrich.registry.api.history.request.ListRegistryHistoryRequest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.registry.history.service.DefaultRegistryHistoryService",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "historyList",
+                "parameterTypes": [
+                    "net.croz.nrich.registry.api.history.request.ListRegistryHistoryRequest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.search.repository.JpaSearchExecutor",
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "javax.persistence.EntityManager",
+                    "org.springframework.data.jpa.repository.support.JpaEntityInformation"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.search.repository.JpaStringSearchExecutor",
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "net.croz.nrich.search.api.converter.StringToEntityPropertyMapConverter",
+                    "javax.persistence.EntityManager",
+                    "org.springframework.data.jpa.repository.support.JpaEntityInformation"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.validation.api.constraint.InList",
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "groups",
+                "parameterTypes": []
+            },
+            {
+                "name": "message",
+                "parameterTypes": []
+            },
+            {
+                "name": "payload",
+                "parameterTypes": []
+            },
+            {
+                "name": "value",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.validation.api.constraint.MaxSizeInBytes",
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "encoding",
+                "parameterTypes": []
+            },
+            {
+                "name": "groups",
+                "parameterTypes": []
+            },
+            {
+                "name": "message",
+                "parameterTypes": []
+            },
+            {
+                "name": "payload",
+                "parameterTypes": []
+            },
+            {
+                "name": "value",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.validation.api.constraint.NotNullWhen",
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "condition",
+                "parameterTypes": []
+            },
+            {
+                "name": "groups",
+                "parameterTypes": []
+            },
+            {
+                "name": "message",
+                "parameterTypes": []
+            },
+            {
+                "name": "payload",
+                "parameterTypes": []
+            },
+            {
+                "name": "property",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.validation.api.constraint.NullWhen",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "net.croz.nrich.validation.api.constraint.ValidFile",
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "allowedContentTypeList",
+                "parameterTypes": []
+            },
+            {
+                "name": "allowedExtensionList",
+                "parameterTypes": []
+            },
+            {
+                "name": "allowedFileNameRegex",
+                "parameterTypes": []
+            },
+            {
+                "name": "groups",
+                "parameterTypes": []
+            },
+            {
+                "name": "message",
+                "parameterTypes": []
+            },
+            {
+                "name": "payload",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.validation.api.constraint.ValidFileResolvable",
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "allowedContentTypeListPropertyName",
+                "parameterTypes": []
+            },
+            {
+                "name": "allowedExtensionListPropertyName",
+                "parameterTypes": []
+            },
+            {
+                "name": "allowedFileNameRegexPropertyName",
+                "parameterTypes": []
+            },
+            {
+                "name": "groups",
+                "parameterTypes": []
+            },
+            {
+                "name": "message",
+                "parameterTypes": []
+            },
+            {
+                "name": "payload",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.validation.api.constraint.ValidOib",
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "groups",
+                "parameterTypes": []
+            },
+            {
+                "name": "message",
+                "parameterTypes": []
+            },
+            {
+                "name": "payload",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.validation.api.constraint.ValidRange",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "net.croz.nrich.validation.api.constraint.ValidSearchProperties",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "net.croz.nrich.validation.api.constraint.ValidSearchProperties$PropertyGroup",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "net.croz.nrich.validation.constraint.mapping.DefaultConstraintMappingContributor",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.validation.constraint.validator.InListValidator",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ],
+        "queriedMethods": [
+            {
+                "name": "initialize",
+                "parameterTypes": [
+                    "java.lang.annotation.Annotation"
+                ]
+            },
+            {
+                "name": "isValid",
+                "parameterTypes": [
+                    "java.lang.Object",
+                    "javax.validation.ConstraintValidatorContext"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.validation.constraint.validator.MaxSizeInBytesValidator",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ],
+        "queriedMethods": [
+            {
+                "name": "initialize",
+                "parameterTypes": [
+                    "java.lang.annotation.Annotation"
+                ]
+            },
+            {
+                "name": "isValid",
+                "parameterTypes": [
+                    "java.lang.Object",
+                    "javax.validation.ConstraintValidatorContext"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.validation.constraint.validator.NotNullWhenValidator",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.springframework.beans.factory.config.AutowireCapableBeanFactory"
+                ]
+            }
+        ],
+        "queriedMethods": [
+            {
+                "name": "initialize",
+                "parameterTypes": [
+                    "java.lang.annotation.Annotation"
+                ]
+            },
+            {
+                "name": "isValid",
+                "parameterTypes": [
+                    "java.lang.Object",
+                    "javax.validation.ConstraintValidatorContext"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.validation.constraint.validator.NullWhenValidator",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.springframework.beans.factory.config.AutowireCapableBeanFactory"
+                ]
+            }
+        ],
+        "queriedMethods": [
+            {
+                "name": "initialize",
+                "parameterTypes": [
+                    "java.lang.annotation.Annotation"
+                ]
+            },
+            {
+                "name": "isValid",
+                "parameterTypes": [
+                    "java.lang.Object",
+                    "javax.validation.ConstraintValidatorContext"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.validation.constraint.validator.ValidFileResolvableValidator",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.springframework.core.env.Environment"
+                ]
+            }
+        ],
+        "queriedMethods": [
+            {
+                "name": "initialize",
+                "parameterTypes": [
+                    "java.lang.annotation.Annotation"
+                ]
+            },
+            {
+                "name": "isValid",
+                "parameterTypes": [
+                    "java.lang.Object",
+                    "javax.validation.ConstraintValidatorContext"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.validation.constraint.validator.ValidFileValidator",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ],
+        "queriedMethods": [
+            {
+                "name": "initialize",
+                "parameterTypes": [
+                    "java.lang.annotation.Annotation"
+                ]
+            },
+            {
+                "name": "isValid",
+                "parameterTypes": [
+                    "java.lang.Object",
+                    "javax.validation.ConstraintValidatorContext"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.validation.constraint.validator.ValidOibValidator",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ],
+        "queriedMethods": [
+            {
+                "name": "isValid",
+                "parameterTypes": [
+                    "java.lang.Object",
+                    "javax.validation.ConstraintValidatorContext"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.validation.constraint.validator.ValidRangeValidator",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ],
+        "queriedMethods": [
+            {
+                "name": "initialize",
+                "parameterTypes": [
+                    "java.lang.annotation.Annotation"
+                ]
+            },
+            {
+                "name": "isValid",
+                "parameterTypes": [
+                    "java.lang.Object",
+                    "javax.validation.ConstraintValidatorContext"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.validation.constraint.validator.ValidSearchPropertiesValidator",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ],
+        "queriedMethods": [
+            {
+                "name": "initialize",
+                "parameterTypes": [
+                    "java.lang.annotation.Annotation"
+                ]
+            },
+            {
+                "name": "isValid",
+                "parameterTypes": [
+                    "java.lang.Object",
+                    "javax.validation.ConstraintValidatorContext"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.notification.api.model.AdditionalNotificationData"
+    },
+    {
+        "name": "net.croz.nrich.notification.api.model.Notification",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "getContent",
+                "parameterTypes": []
+            },
+            {
+                "name": "getMessageList",
+                "parameterTypes": []
+            },
+            {
+                "name": "getSeverity",
+                "parameterTypes": []
+            },
+            {
+                "name": "getTimestamp",
+                "parameterTypes": []
+            },
+            {
+                "name": "getTitle",
+                "parameterTypes": []
+            },
+            {
+                "name": "getUxNotificationOptions",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.notification.api.model.NotificationSeverity",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "net.croz.nrich.notification.api.model.ValidationError",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "getErrorMessageList",
+                "parameterTypes": []
+            },
+            {
+                "name": "getObjectName",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.notification.api.model.ValidationFailureNotification",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "getValidationErrorList",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.notification.api.response.NotificationDataResponse",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "getData",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrich.notification.api.response.NotificationResponse",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "getNotification",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrichdemobackend.formconfiguration.request.FormConfigurationDemoRequest",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true
+    },
+    {
+        "name": "net.croz.nrichdemobackend.seach.model.Car",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllPublicMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrichdemobackend.seach.model.CarType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllPublicMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrichdemobackend.registry.model.Address",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllPublicMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrichdemobackend.registry.model.Author",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllPublicMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "getFirstName",
+                "parameterTypes": []
+            },
+            {
+                "name": "getLastName",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrichdemobackend.registry.model.AuthorBook",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllPublicMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "getEdition",
+                "parameterTypes": []
+            },
+            {
+                "name": "getEditionNumber",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrichdemobackend.registry.model.AuthorBookId",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllPublicMethods": true,
+        "queryAllDeclaredConstructors": true
+    },
+    {
+        "name": "net.croz.nrichdemobackend.registry.model.Book",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllPublicMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "getTitle",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrichdemobackend.registry.model.BookType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllPublicMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrichdemobackend.registry.model.Country",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllPublicMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrichdemobackend.registry.model.CountryCreateRequest",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "setName",
+                "parameterTypes": [
+                    "java.lang.String"
+                ]
+            },
+            {
+                "name": "getName",
+                "parameterTypes": [
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.apache.commons.compress.archivers.zip.AsiExtraField",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.apache.commons.compress.archivers.zip.JarMarker",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.apache.commons.compress.archivers.zip.ResourceAlignmentExtraField",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.apache.commons.compress.archivers.zip.UnicodeCommentExtraField",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.apache.commons.compress.archivers.zip.UnicodePathExtraField",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.apache.commons.compress.archivers.zip.X000A_NTFS",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.apache.commons.compress.archivers.zip.X0014_X509Certificates",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.apache.commons.compress.archivers.zip.X0015_CertificateIdForFile",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.apache.commons.compress.archivers.zip.X0016_CertificateIdForCentralDirectory",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.apache.commons.compress.archivers.zip.X0017_StrongEncryptionHeader",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.apache.commons.compress.archivers.zip.X0019_EncryptionRecipientCertificateList",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.apache.commons.compress.archivers.zip.X5455_ExtendedTimestamp",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.apache.commons.compress.archivers.zip.X7875_NewUnix",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.apache.commons.compress.archivers.zip.Zip64ExtendedInformationExtraField",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.apache.xmlbeans.metadata.system.sXMLCONFIG.TypeSystemHolder",
+        "fields": [
+            {
+                "name": "typeSystem"
+            }
+        ]
+    },
+    {
+        "name": "org.apache.xmlbeans.metadata.system.sXMLLANG.TypeSystemHolder",
+        "fields": [
+            {
+                "name": "typeSystem"
+            }
+        ]
+    },
+    {
+        "name": "org.apache.xmlbeans.metadata.system.sXMLSCHEMA.TypeSystemHolder",
+        "fields": [
+            {
+                "name": "typeSystem"
+            }
+        ]
+    },
+    {
+        "name": "org.apache.xmlbeans.metadata.system.sXMLTOOLS.TypeSystemHolder",
+        "fields": [
+            {
+                "name": "typeSystem"
+            }
+        ]
+    },
+    {
+        "name": "org.dom4j.DocumentFactory",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.dom4j.tree.QNameCache",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.dom4j.util.SimpleSingleton",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmAnyAssociationType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmAnyValueMappingType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmArrayType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmAuxiliaryDatabaseObjectType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmAuxiliaryDatabaseObjectType$JaxbHbmDefinition",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmBagCollectionType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmBaseVersionAttributeType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmBasicAttributeType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmBasicCollectionElementType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmCacheInclusionEnum",
+        "allDeclaredFields": true,
+        "fields": [
+            {
+                "name": "ALL"
+            },
+            {
+                "name": "NON_LAZY"
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmCacheType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmClassRenameType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmCollectionIdType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmColumnType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmCompositeAttributeType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmCompositeCollectionElementType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmCompositeIdType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmCompositeIndexType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmCompositeKeyBasicAttributeType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmCompositeKeyManyToOneType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmConfigParameterContainer",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmConfigParameterType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmCustomSqlDmlType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmDialectScopeType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmDiscriminatorSubclassEntityType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmDynamicComponentType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmEntityBaseDefinition",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmEntityDiscriminatorType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmFetchProfileType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmFetchProfileType$JaxbHbmFetch",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmFetchStyleEnum",
+        "allDeclaredFields": true,
+        "fields": [
+            {
+                "name": "JOIN"
+            },
+            {
+                "name": "SELECT"
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmFetchStyleWithSubselectEnum",
+        "allDeclaredFields": true,
+        "fields": [
+            {
+                "name": "JOIN"
+            },
+            {
+                "name": "SELECT"
+            },
+            {
+                "name": "SUBSELECT"
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmFilterAliasMappingType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmFilterDefinitionType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmFilterParameterType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmFilterType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmGeneratorSpecificationType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmHibernateMapping",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmIdBagCollectionType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmIdentifierGeneratorDefinitionType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmIndexManyToAnyType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmIndexManyToManyType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmIndexType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmJoinedSubclassEntityType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmKeyType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmLazyEnum",
+        "allDeclaredFields": true,
+        "fields": [
+            {
+                "name": "FALSE"
+            },
+            {
+                "name": "PROXY"
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmLazyWithExtraEnum",
+        "allDeclaredFields": true,
+        "fields": [
+            {
+                "name": "EXTRA"
+            },
+            {
+                "name": "FALSE"
+            },
+            {
+                "name": "TRUE"
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmLazyWithNoProxyEnum",
+        "allDeclaredFields": true,
+        "fields": [
+            {
+                "name": "FALSE"
+            },
+            {
+                "name": "NO_PROXY"
+            },
+            {
+                "name": "PROXY"
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmListIndexType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmListType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmLoaderType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmManyToAnyCollectionElementType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmManyToManyCollectionElementType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmManyToOneType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmMapKeyBasicType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmMapKeyCompositeType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmMapKeyManyToManyType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmMapType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmMultiTenancyType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmNamedNativeQueryType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmNamedQueryType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmNativeQueryCollectionLoadReturnType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmNativeQueryJoinReturnType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmNativeQueryPropertyReturnType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmNativeQueryPropertyReturnType$JaxbHbmReturnColumn",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmNativeQueryReturnType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmNativeQueryReturnType$JaxbHbmReturnDiscriminator",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmNativeQueryScalarReturnType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmNaturalIdCacheType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmNaturalIdType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmNestedCompositeElementType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmNotFoundEnum",
+        "allDeclaredFields": true,
+        "fields": [
+            {
+                "name": "EXCEPTION"
+            },
+            {
+                "name": "IGNORE"
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmOnDeleteEnum",
+        "allDeclaredFields": true,
+        "fields": [
+            {
+                "name": "CASCADE"
+            },
+            {
+                "name": "NOACTION"
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmOneToManyCollectionElementType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmOneToOneType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmOuterJoinEnum",
+        "allDeclaredFields": true,
+        "fields": [
+            {
+                "name": "AUTO"
+            },
+            {
+                "name": "FALSE"
+            },
+            {
+                "name": "TRUE"
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmParentType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmPolymorphismEnum",
+        "allDeclaredFields": true,
+        "fields": [
+            {
+                "name": "EXPLICIT"
+            },
+            {
+                "name": "IMPLICIT"
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmPrimitiveArrayType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmPropertiesType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmQueryParamType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmResultSetMappingType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmRootEntityType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmSecondaryTableType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmSetType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmSimpleIdType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmSubclassEntityBaseDefinition",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmSynchronizeType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmTimestampAttributeType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmTimestampSourceEnum",
+        "allDeclaredFields": true,
+        "fields": [
+            {
+                "name": "DB"
+            },
+            {
+                "name": "VM"
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmToolingHintContainer",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmToolingHintType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmTuplizerType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmTypeDefinitionType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmTypeSpecificationType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmUnionSubclassEntityType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmUnsavedValueCompositeIdEnum",
+        "allDeclaredFields": true,
+        "fields": [
+            {
+                "name": "ANY"
+            },
+            {
+                "name": "NONE"
+            },
+            {
+                "name": "UNDEFINED"
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmUnsavedValueTimestampEnum",
+        "allDeclaredFields": true,
+        "fields": [
+            {
+                "name": "NULL"
+            },
+            {
+                "name": "UNDEFINED"
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmUnsavedValueVersionEnum",
+        "allDeclaredFields": true,
+        "fields": [
+            {
+                "name": "NEGATIVE"
+            },
+            {
+                "name": "NULL"
+            },
+            {
+                "name": "UNDEFINED"
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.JaxbHbmVersionAttributeType",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.ObjectFactory",
+        "queryAllDeclaredMethods": true
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.PluralAttributeInfoIdBagAdapter",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.boot.jaxb.hbm.spi.PluralAttributeInfoPrimitiveArrayAdapter",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queriedMethods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.envers.Audited",
+        "queryAllDeclaredMethods": true,
+        "methods": [
+            {
+                "name": "auditParents",
+                "parameterTypes": []
+            },
+            {
+                "name": "modStore",
+                "parameterTypes": []
+            },
+            {
+                "name": "targetAuditMode",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.envers.DefaultRevisionEntity",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "getId",
+                "parameterTypes": []
+            },
+            {
+                "name": "getTimestamp",
+                "parameterTypes": []
+            },
+            {
+                "name": "setId",
+                "parameterTypes": [
+                    "int"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.envers.DefaultRevisionEntity_",
+        "fields": [
+            {
+                "name": "id"
+            },
+            {
+                "name": "timestamp"
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.envers.RevisionEntity"
+    },
+    {
+        "name": "org.hibernate.envers.RevisionType"
+    },
+    {
+        "name": "org.hibernate.envers.boot.internal.EnversServiceImpl",
+        "queryAllPublicMethods": true
+    },
+    {
+        "name": "org.hibernate.envers.boot.internal.LegacyModifiedColumnNamingStrategy",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.envers.internal.EnversMessageLogger_$logger",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.jboss.logging.Logger"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.envers.query.AuditQuery"
+    },
+    {
+        "name": "org.hibernate.envers.query.criteria.AuditProperty"
+    },
+    {
+        "name": "org.hibernate.envers.strategy.DefaultAuditStrategy",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.persister.entity.SingleTableEntityPersister",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.hibernate.mapping.PersistentClass",
+                    "org.hibernate.cache.spi.access.EntityDataAccess",
+                    "org.hibernate.cache.spi.access.NaturalIdDataAccess",
+                    "org.hibernate.persister.spi.PersisterCreationContext"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.hibernate.tuple.entity.DynamicMapEntityTuplizer",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.hibernate.tuple.entity.EntityMetamodel",
+                    "org.hibernate.mapping.PersistentClass"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.drawingml.x2006.main.impl.ThemeDocumentImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.officeDocument.x2006.customProperties.impl.CTPropertiesImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.officeDocument.x2006.customProperties.impl.PropertiesDocumentImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.officeDocument.x2006.extendedProperties.impl.CTPropertiesImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.officeDocument.x2006.extendedProperties.impl.PropertiesDocumentImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.officeDocument.x2006.relationships.impl.STRelationshipIdImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.officeDocument.x2006.sharedTypes.impl.STXstringImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.STCellType$Enum",
+        "fields": [
+            {
+                "name": "table"
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTBorderImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTBordersImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTCellImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTCellStyleXfsImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTCellXfsImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTColImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTColorsImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTColsImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTDxfsImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTFillImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTFillsImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTFontImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTFontNameImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTFontSizeImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTFontsImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTIndexedColorsImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTNumFmtImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTNumFmtsImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTRgbColorImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTRowImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTRstImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTSheetDataImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTSheetDimensionImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTSheetImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTSheetsImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTSstImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTStylesheetImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTTableStylesImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTWorkbookImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTWorksheetImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.CTXfImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.STBorderIdImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.STCellRefImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.STCellStyleXfIdImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.STCellTypeImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.STFillIdImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.STFontIdImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.STNumFmtIdImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.STRefImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.STUnsignedIntHexImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.SstDocumentImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.StyleSheetDocumentImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.WorkbookDocumentImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.openxmlformats.schemas.spreadsheetml.x2006.main.impl.WorksheetDocumentImpl",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.apache.xmlbeans.SchemaType"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "com.fasterxml.jackson.databind.ser.std.ClassSerializer",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.springframework.data.domain.PageRequest",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "getSort",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "sun.reflect.ReflectionFactory",
+        "methods": [
+            {
+                "name": "getReflectionFactory",
+                "parameterTypes": []
+            },
+            {
+                "name": "newConstructorForSerialization",
+                "parameterTypes": [
+                    "java.lang.Class",
+                    "java.lang.reflect.Constructor"
+                ]
+            }
+        ]
+    }
+]
