@@ -18,10 +18,10 @@
 package net.croz.nrichdemobackend.excel.service;
 
 import lombok.RequiredArgsConstructor;
+import net.croz.nrich.excel.api.model.MultiRowDataProvider;
 import net.croz.nrich.excel.api.model.TemplateVariable;
 import net.croz.nrich.excel.api.request.CreateExcelReportRequest;
 import net.croz.nrich.excel.api.service.ExcelReportService;
-import net.croz.nrichdemobackend.excel.provider.ExcelDemoProvider;
 import org.springframework.stereotype.Service;
 
 import java.io.ByteArrayOutputStream;
@@ -40,7 +40,7 @@ public class DefaultExcelDemoService implements ExcelDemoService {
 
     private final ExcelReportService excelReportService;
 
-    private final ExcelDemoProvider excelDemoProvider;
+    private final MultiRowDataProvider excelDemoProvider;
 
     @Override
     public byte[] createExcelReportFromFlatData() {
