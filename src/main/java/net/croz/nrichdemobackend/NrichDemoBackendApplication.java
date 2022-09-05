@@ -22,9 +22,12 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.nativex.hint.AotProxyHint;
+import org.springframework.nativex.hint.ProxyBits;
 
 import java.util.TimeZone;
 
+@AotProxyHint(targetClass = net.croz.nrichdemobackend.encrypt.controller.EncryptDemoController.class, proxyFeatures = ProxyBits.IS_STATIC)
 @SpringBootApplication
 public class NrichDemoBackendApplication {
 
