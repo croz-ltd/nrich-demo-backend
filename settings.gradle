@@ -1,1 +1,8 @@
+pluginManagement {
+  repositories {
+    gradlePluginPortal()
+    maven { url "https://repo.spring.io/release" }
+  }
+}
+
 rootProject.name = 'nrich-demo-backend'
