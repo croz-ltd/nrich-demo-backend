@@ -93,9 +93,8 @@ tasks.named("test") {
 }
 
 bootBuildImage {
-  builder = "paketobuildpacks/builder:latest"
-  // ideally we would use a custom run image with only fonts and libfreetype installed, for now just to make things simpler using a full image
-  runImage = "paketobuildpacks/run:full-cnb"
+  builder = "paketobuildpacks/builder:$buildImageVersion"
+  runImage = "agrancaric/nrich-run-native:$runImageVersion"
   environment = ["BP_NATIVE_IMAGE": "true", "BP_NATIVE_IMAGE_BUILD_ARGUMENTS": "-H:+AddAllCharsets"]
 }
 
