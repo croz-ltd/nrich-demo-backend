@@ -1,0 +1,63 @@
+-- ENCRYPT
+
+Currently, annotations are not working in native mode because of: https://github.com/spring-projects-experimental/spring-native/issues/1712
+
+When using decrypt use the value returned from encrypt endpoint.
+
+curl -v --location --request GET http://localhost:8080/encrypt/encrypt-result\?value\=result
+curl -v --location --request GET http://localhost:8080/encrypt/decrypt-argument\?value\=l5OvNFOj1KO3xIXmaeK9rjOLKWYGM0z9P9yVLAiI8rk=
+curl -v --location --request POST http://localhost:8080/encrypt/encrypt-nested-result -H 'Content-Type: application/json' -d '{"nestedValue": "value" }'
+curl -v --location --request POST http://localhost:8080/encrypt/decrypt-nested-argument -H 'Content-Type: application/json' -d '{"nestedValue": "9opiQN_5iiwMxoXkzYn4CYdW5QNg_aeOtlhOpwuiY0I=" }'
+curl -v --location --request GET http://localhost:8080/encrypt/encrypt-result-defined-in-properties\?value\=result
+curl -v --location --request GET http://localhost:8080/encrypt/decrypt-argument-defined-in-properties\?value\=r0zGxBATkA0LKx1iaYEMzNQSpVWvEs3mEG1L7Q-no78=
+
+
+-- EXCEL
+
+curl -v --location --request GET http://localhost:8080/excel/report-from-flat-data -H 'Content-Type: application/json' >> output-flat.xls
+curl -v --location --request GET http://localhost:8080/excel/report-from-provider -H 'Content-Type: application/json' >> output-provider.xls
+
+
+-- FORM CONFIGURATION
+
+curl -v --location --request POST http://localhost:8080/nrich/form/configuration/fetch-all -H 'Content-Type: application/json'
+curl -v --location --request POST http://localhost:8080/nrich/form/configuration/fetch -H 'Content-Type: application/json' -d '{"formIdList" : ["form-configuration.demo-request"] }'
+
+-- REGISTRY
+
+curl -v --location --request POST http://localhost:8080/nrich/registry/configuration/fetch -H 'Content-Type: application/json'
+curl -v --location --request POST http://localhost:8080/nrich/registry/data/list-bulk -H 'Content-Type: application/json'  \
+    -d '{"registryRequestList": [{"pageNumber": 0, "classFullName": "net.croz.nrichdemobackend.registry.model.Author", "pageSize": 100}, {"pageNumber": 0, "classFullName": "net.croz.nrichdemobackend.registry.model.Book", "pageSize": 100}]}'
+curl -v --location --request POST http://localhost:8080/nrich/registry/data/list -H 'Content-Type: application/json' \
+    -d '{"pageNumber":0, "searchParameter": {"query":"First_12","propertyNameList":["firstName"]}, "classFullName": "net.croz.nrichdemobackend.registry.model.Author", "pageSize": 100}'
+curl -v --location --request POST http://localhost:8080/nrich/registry/data/create -H 'Content-Type: application/json' \
+    -d '{"jsonEntityData":"{\"name\":\"someCountryNameForTest\"}", "classFullName": "net.croz.nrichdemobackend.registry.model.Country"}'
+curl -v --location --request POST http://localhost:8080/nrich/registry/data/update -H 'Content-Type: application/json' \
+    -d '{"id": 251, "jsonEntityData":"{ \"name\":\"someCountryNameForTest\"}", "classFullName": "net.croz.nrichdemobackend.registry.model.Country"}'
+curl -v --location --request POST http://localhost:8080/nrich/registry/data/delete -H 'Content-Type: application/json' \
+    -d '{"id": 251, "classFullName": "net.croz.nrichdemobackend.registry.model.Country"}'
+curl -v --location --request POST http://localhost:8080/nrich/registry/history/list -H 'Content-Type: application/json' \
+    -d '{"pageSize":100,"pageNumber":0,"registryRecordId":1,"classFullName":"net.croz.nrichdemobackend.registry.model.Country"}'
+
+-- SEARCH
+
+curl -v --location --request POST http://localhost:8080/search/search-car -H 'Content-Type: application/json' -d '{"registrationNumber": "BC-456", "pageSize": 100, "pageNumber": 0 }'
+curl -v --location --request POST http://localhost:8080/search/string-search-car -H 'Content-Type: application/json' -d '{"searchTerm": "BC-456", "propertyToSearchList": ["registrationNumber"], "pageSize": 100, "pageNumber": 0 }'
+
+
+-- VALIDATION
+
+curl -v --location --request POST http://localhost:8080/validation/not-null-when -H 'Content-Type: application/json' -d '{"street": "street" }'
+curl -v --location --request POST http://localhost:8080/validation/null-when -H 'Content-Type: application/json' -d '{"paymentType": "COMPANY_CREDIT_CARD", "amountForRefund": 100 }'
+curl -v --location --request GET http://localhost:8080/validation/max-size-in-bytes\?value\=2222222222
+curl -v --location --request GET http://localhost:8080/validation/in-list\?value\=not
+curl -v --location --request GET http://localhost:8080/validation/oib\?value\=notvalid
+curl -v --location --request POST http://localhost:8080/validation/valid-file-resolvable -H 'Content-Type: multipart/form-data' -F 'file=@build.gradle'
+curl -v --location --request POST http://localhost:8080/validation/valid-range -H 'Content-Type: application/json' -d '{"ageFrom": 100,"ageTo": 100}'
+curl -v --location --request POST http://localhost:8080/validation/valid-search-properties -H 'Content-Type: application/json' -d '{"firstName": "first"}'
+
+
+-- SEARCH
+
+curl -v --location --request POST http://localhost:8080/search/search-car -H 'Content-Type: application/json' -d '{"registrationNumber": "BC-456", "pageSize": 100, "pageNumber": 0 }'
+curl -v --location --request POST http://localhost:8080/search/string-search-car -H 'Content-Type: application/json' -d '{"searchTerm": "BC-456", "propertyToSearchList": ["registrationNumber"], "pageSize": 100, "pageNumber": 0 }'
