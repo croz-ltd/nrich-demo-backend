@@ -1580,6 +1580,42 @@
         ]
     },
     {
+        "name": "net.croz.nrichdemobackend.validation.request.NotNullWhenDemoRequest$Condition",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "test",
+                "parameterTypes": [
+                    "net.croz.nrichdemobackend.validation.request.NotNullWhenDemoRequest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrichdemobackend.validation.request.NullWhenDemoRequest$Condition",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "test",
+                "parameterTypes": [
+                    "net.croz.nrichdemobackend.validation.request.NullWhenDemoRequest"
+                ]
+            }
+        ]
+    },
+    {
         "name": "org.apache.commons.compress.archivers.zip.AsiExtraField",
         "methods": [
             {
