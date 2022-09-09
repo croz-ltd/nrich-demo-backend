@@ -17,9 +17,12 @@
 
 package net.croz.nrichdemobackend.infrastructure.cache.config;
 
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
 
-// @EnableCaching caching doesn't seem to work in native image
+@Profile("!native") // caching doesn't work in native image
+@EnableCaching
 @Configuration(proxyBeanMethods = false)
 public class CacheConfig {
 

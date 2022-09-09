@@ -92,6 +92,10 @@ tasks.named("test") {
   useJUnitPlatform()
 }
 
+generateAot {
+  environment("spring.profiles.active", "native")
+}
+
 bootBuildImage {
   builder = "paketobuildpacks/builder:$buildImageVersion"
   runImage = "agrancaric/nrich-run-native:$runImageVersion"
