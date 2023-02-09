@@ -1,7 +1,8 @@
 spring:
   cache:
-    jcache:
-      config: classpath:ehcache.xml
+    type: caffeine
+    cache-names: nrich.transientPropertyResolver.cache, nrich.formConfiguration.cache, nrich.registryConfiguration.cache, nrich.classResolvingCreate.cache, nrich.classResolvingUpdate.cache
+    caffeine.spec: maximumSize=200, expireAfterWrite=8h
   jpa:
     open-in-view: false
     properties:
