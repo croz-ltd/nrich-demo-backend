@@ -21,10 +21,10 @@ import lombok.Getter;
 import lombok.Setter;
 import net.croz.nrichdemobackend.infrastructure.persistence.model.BaseEntity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.SequenceGenerator;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.SequenceGenerator;
 
 @Setter
 @Getter
