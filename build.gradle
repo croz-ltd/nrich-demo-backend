@@ -57,7 +57,14 @@ dependencies {
 
   implementation "org.hibernate.orm:hibernate-envers"
   implementation "org.springframework.boot:spring-boot-starter-cache"
-  implementation "org.springframework.boot:spring-boot-starter-web"
+  implementation("org.springframework.boot:spring-boot-starter-web") {
+    exclude group: "org.apache.tomcat.embed", module: "tomcat-embed-core"
+    exclude group: "org.apache.tomcat.embed", module: "tomcat-embed-websocket"
+  }
+
+  String tomcatVersion = dependencyManagement.importedProperties["tomcat.version"]
+  //noinspection GradlePackageVersionRange
+  implementation "org.apache.tomcat.experimental:tomcat-embed-programmatic:$tomcatVersion"
 
   compileOnly "org.projectlombok:lombok"
   annotationProcessor "org.projectlombok:lombok"
