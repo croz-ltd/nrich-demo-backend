@@ -86,7 +86,7 @@ tasks.named("test") {
 bootBuildImage {
   builder = "paketobuildpacks/builder:$buildImageVersion"
   runImage = "agrancaric/nrich-run-native:$runImageVersion"
-  environment = ["BP_NATIVE_IMAGE": "true", "BP_NATIVE_IMAGE_BUILD_ARGUMENTS": "-H:+AddAllCharsets --initialize-at-build-time=org.apache.logging"]
+  environment = ["BP_NATIVE_IMAGE": "true", "BP_NATIVE_IMAGE_BUILD_ARGUMENTS": "-H:+AddAllCharsets"]
 }
 
 graalvmNative {
@@ -98,8 +98,8 @@ graalvmNative {
 
 hibernate {
   enhancement {
-    lazyInitialization true
-    dirtyTracking true
-    associationManagement true
+    enableLazyInitialization.set(true)
+    enableDirtyTracking.set(true)
+    enableAssociationManagement.set(true)
   }
 }
