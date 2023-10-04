@@ -21,7 +21,7 @@ import lombok.Getter;
 import lombok.Setter;
 import net.croz.nrich.validation.api.constraint.InList;
 
-import javax.validation.constraints.NotNull;
+import jakarta.validation.constraints.NotNull;
 
 @Setter
 @Getter

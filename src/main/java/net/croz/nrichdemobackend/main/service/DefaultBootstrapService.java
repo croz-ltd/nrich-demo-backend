@@ -31,8 +31,8 @@ import net.croz.nrichdemobackend.seach.model.Car;
 import net.croz.nrichdemobackend.seach.model.CarType;
 import org.springframework.stereotype.Service;
 
-import javax.persistence.EntityManager;
-import javax.transaction.Transactional;
+import jakarta.persistence.EntityManager;
+import jakarta.transaction.Transactional;
 import java.math.BigDecimal;
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;

@@ -22,17 +22,17 @@ import lombok.Setter;
 import net.croz.nrichdemobackend.infrastructure.persistence.model.BaseEntity;
 import org.hibernate.envers.Audited;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.SequenceGenerator;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.SequenceGenerator;
 
 @Setter
 @Getter
 @Audited
 @SequenceGenerator(name = "countrySequenceGenerator", sequenceName = "country_seq")
 @Entity
-public class Country extends BaseEntity<Long>  {
+public class Country extends BaseEntity<Long> {
 
     @GeneratedValue(generator = "countrySequenceGenerator")
     @Id

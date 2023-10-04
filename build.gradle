@@ -1,9 +1,11 @@
 plugins {
   id "fr.brouillard.oss.gradle.jgitver" version "$gradleJgitverPluginVersion"
-  id "org.springframework.boot" version "$springBootVersion"
   id "io.spring.dependency-management" version "$springDependencyManagementVersion"
   id "java"
   id "jacoco"
+  id "org.hibernate.orm" version "$hibernatePluginVersion"
+  id "org.springframework.boot" version "$springBootVersion"
+  id "org.graalvm.buildtools.native" version "$graalBuildToolsPluginVersion"
 }
 
 jacocoTestReport {
@@ -23,7 +25,7 @@ jgitver {
 
 group = "net.croz"
 version = "0.0.1-SNAPSHOT"
-sourceCompatibility = "11"
+sourceCompatibility = "17"
 
 configurations {
   compileOnly {
@@ -37,6 +39,8 @@ repositories {
 }
 
 dependencies {
+  implementation "com.github.ben-manes.caffeine:caffeine"
+
   implementation platform("net.croz.nrich:nrich-bom:$nrichVersion")
 
   implementation "net.croz.nrich:nrich-core-api"
@@ -51,10 +55,16 @@ dependencies {
   implementation "net.croz.nrich:nrich-validation-spring-boot-starter"
   implementation "net.croz.nrich:nrich-webmvc-spring-boot-starter"
 
-  implementation "org.ehcache:ehcache"
-  implementation "org.hibernate:hibernate-envers"
+  implementation "org.hibernate.orm:hibernate-envers"
   implementation "org.springframework.boot:spring-boot-starter-cache"
-  implementation "org.springframework.boot:spring-boot-starter-web"
+  implementation("org.springframework.boot:spring-boot-starter-web") {
+    exclude group: "org.apache.tomcat.embed", module: "tomcat-embed-core"
+    exclude group: "org.apache.tomcat.embed", module: "tomcat-embed-websocket"
+  }
+
+  String tomcatVersion = dependencyManagement.importedProperties["tomcat.version"]
+  //noinspection GradlePackageVersionRange
+  implementation "org.apache.tomcat.experimental:tomcat-embed-programmatic:$tomcatVersion"
 
   compileOnly "org.projectlombok:lombok"
   annotationProcessor "org.projectlombok:lombok"
@@ -71,4 +81,25 @@ dependencies {
 
 tasks.named("test") {
   useJUnitPlatform()
+}
+
+bootBuildImage {
+  builder = "paketobuildpacks/builder:$buildImageVersion"
+  runImage = "agrancaric/nrich-run-native:$runImageVersion"
+  environment = ["BP_NATIVE_IMAGE": "true", "BP_NATIVE_IMAGE_BUILD_ARGUMENTS": "-H:+AddAllCharsets"]
+}
+
+graalvmNative {
+  metadataRepository {
+    enabled = true
+    version = "$metadataRepositoryVersion"
+  }
+}
+
+hibernate {
+  enhancement {
+    enableLazyInitialization.set(true)
+    enableDirtyTracking.set(true)
+    enableAssociationManagement.set(true)
+  }
 }

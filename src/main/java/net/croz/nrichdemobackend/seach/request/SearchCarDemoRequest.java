@@ -21,9 +21,9 @@ import lombok.Getter;
 import lombok.Setter;
 import net.croz.nrich.search.api.request.BaseSortablePageableRequest;
 
-import javax.validation.constraints.DecimalMin;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.Size;
+import jakarta.validation.constraints.DecimalMin;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.Size;
 import java.math.BigDecimal;
 import java.time.Instant;
 

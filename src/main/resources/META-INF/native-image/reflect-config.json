@@ -1,0 +1,50 @@
+[
+    {
+        "name": "net.croz.nrichdemobackend.formconfiguration.request.FormConfigurationDemoRequest",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true
+    },
+    {
+        "name": "net.croz.nrichdemobackend.formconfiguration.request.NestedFormConfigurationDemoRequest",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true
+    },
+    {
+        "name": "net.croz.nrichdemobackend.validation.request.NotNullWhenDemoRequest$Condition",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "test",
+                "parameterTypes": [
+                    "net.croz.nrichdemobackend.validation.request.NotNullWhenDemoRequest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "net.croz.nrichdemobackend.validation.request.NullWhenDemoRequest$Condition",
+        "allDeclaredFields": true,
+        "queryAllDeclaredMethods": true,
+        "queryAllDeclaredConstructors": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            },
+            {
+                "name": "test",
+                "parameterTypes": [
+                    "net.croz.nrichdemobackend.validation.request.NullWhenDemoRequest"
+                ]
+            }
+        ]
+    }
+]

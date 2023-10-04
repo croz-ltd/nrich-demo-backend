@@ -1,0 +1,12 @@
+{
+    "resources": {
+        "includes": [
+            {
+                "pattern": "\\Qexcel\/template.xlsx\\E"
+            },
+            {
+                "pattern": "\\Qmessages.properties\\E"
+            }
+        ]
+    }
+}

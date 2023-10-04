@@ -1,5 +1,5 @@
 /*
- *  Copyright 2022 CROZ d.o.o, the original author or authors.
+ *  Copyright 2022-2022 CROZ d.o.o, the original author or authors.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
@@ -15,38 +15,32 @@
  *
  */
 
-package net.croz.nrichdemobackend.registry.model;
+package net.croz.nrichdemobackend.infrastructure.persistence.model;
 
 import lombok.Getter;
 import lombok.Setter;
-import net.croz.nrichdemobackend.infrastructure.persistence.model.BaseEntity;
+import org.hibernate.envers.RevisionEntity;
+import org.hibernate.envers.RevisionNumber;
+import org.hibernate.envers.RevisionTimestamp;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.SequenceGenerator;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
+import java.util.Date;
 
+// needed since hibernate plugin does bytecode enhancements to enable lazy loading and it doesn't detect original DefaultRevisionEntity
 @Setter
 @Getter
-@SequenceGenerator(name = "bookSequenceGenerator", sequenceName = "book_seq")
+@RevisionEntity
 @Entity
-public class Book extends BaseEntity<Long> {
+public class CustomRevisionEntity {
 
-    @GeneratedValue(generator = "bookSequenceGenerator")
     @Id
-    private Long id;
+    @GeneratedValue
+    @RevisionNumber
+    private Integer id;
 
-    @NotNull
-    private String title;
-
-    @Size(min = 5, max = 20)
-    private String isbn;
-
-    @ManyToOne(fetch = FetchType.LAZY)
-    private BookType bookType;
+    @RevisionTimestamp
+    private Date timestamp;
 
 }

@@ -21,9 +21,9 @@ import lombok.Getter;
 import lombok.Setter;
 import net.croz.nrichdemobackend.infrastructure.persistence.model.BaseEntity;
 
-import javax.persistence.EmbeddedId;
-import javax.persistence.Entity;
-import javax.validation.constraints.NotNull;
+import jakarta.persistence.EmbeddedId;
+import jakarta.persistence.Entity;
+import jakarta.validation.constraints.NotNull;
 
 @Setter
 @Getter

@@ -20,8 +20,8 @@ package net.croz.nrichdemobackend.registry.model;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 
 // example of using a custom validation when creating a country
 @Setter
